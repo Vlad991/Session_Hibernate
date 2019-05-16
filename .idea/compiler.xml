@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="Session_Hibernate.main" target="1.8" />
+      <module name="Session_Hibernate.test" target="1.8" />
       <module name="Session_Hibernate1.main" target="1.8" />
       <module name="Session_Hibernate1.test" target="1.8" />
     </bytecodeTargetLevel>
