@@ -27,6 +27,10 @@ public class Main {
             client.setName("Vasya");
             client.setSurname("Pupkin");
             session.save(client);
+            Client client1 = new Client();
+            client1.setName("Petya");
+            client1.setSurname("Petrov");
+            session.save(client1);
             session.getTransaction().commit();
             session.close();
             sessionFactory.close();
